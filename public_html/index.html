@@ -1,0 +1,22 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="test"></div>
+        <script src="js/libs/require.min.js" data-main="js/common"></script>
+        
+        <script>
+            require(['common'], function(){
+                require(['../pages/home']);
+            });
+        </script>
+    </body>
+</html>
